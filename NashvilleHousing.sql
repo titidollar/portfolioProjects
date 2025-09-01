@@ -29,7 +29,7 @@ FROM "nashville_housing";
 
 -- Standardiser le format de la date
 
--- En PostgreSQL, il n’y a pas CONVERT, on utilise CAST ou TO_DATE
+-- En PostgreSQL, on utilise CAST ou TO_DATE
 ALTER TABLE "nashville_housing"
 ADD COLUMN "SaleDateConverted" DATE;
 
